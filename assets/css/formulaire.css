@@ -1,0 +1,29 @@
+/************************** css général **************************/
+.inscription
+{
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/************************** css du formulaire **************************/
+.formulaire_div
+{
+    margin: 20px 0;
+}
+.formulaire_p
+{
+    font-size: 1.25rem;
+}
+.formulaire_label
+{
+    font-size: 1.25rem;
+    font-style: italic;
+    display: block;
+}
+
+/************************** css des input **************************/
+.formulaire_input
+{
+    margin: 10px 0;
+    background-color: rgb(90, 165, 190);
+}

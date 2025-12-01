@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tp2</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/formulaire.css">
+    <link rel="stylesheet" href="assets/css/tableau.css">
+</head>
+
+<body>
+    <!-- ********************** section accueil ********************** -->
+    <div class="hero">
+        <header class="entete centre">
+            <!-- ********************** description ********************** -->
+            <section>
+                <h1>Risk of Rain 2</h1>
+                <p class="entete_p">Risk of Rain 2, aussi connu sous le nom RoR2, est un jeu fait par Hopoo Games. Publié en 2020, c'est la continuation de l'original Risk of Rain et de Risk of Rain Returns en prennant plusieurs éléments de ces jeus et ajoutant plus à l'expérience.</p>
+                <p class="entete_p">RoR2 est un roguelike avec l'objectif de survive et battre le boss final, cepedant une partie du jeu pourrait se continuer infiniment si vous le désirer. Tu est capable de jouer avec une variété de personnages chacun avec leur capacité unique à eu. Avec l'abundance d'items et de personnages jouable, les stratégies possible sont immenses ce qui rend une partie unique à l'autre.</p>
+                <!-- ********************** bouton accueil ********************** -->
+                <nav>
+                    <a href="#inscription" class="entete_inscription">Inscription</a>
+                </nav>
+            </section>
+
+            <!-- ********************** information additionnel ********************** -->
+            <section class="entete_section">
+                <section><p>Techniques d'intégration multimédia</p></section>
+                <section><p>Collège de Maisonneuve</p></section>
+                <section><p>TP2 Matheo Sousa - 1w1/Mise en page Web</p></section>
+                <section><p>Automne 2025</p></section>
+                <nav>
+                    <a href="https://github.com/MattSou007">Page GitHub</a>
+                </nav>
+
+                <!-- ********************** menu & bouton burger ********************** -->
+                <label for="chk_burger" class="entete_bouton"><img src="https://s2.svgbox.net/hero-outline.svg?ic=menu&color=000000" width="32" height="32"></label>
+                <input type="checkbox" name="" id="chk_burger">
+                <nav class="entete_nav">
+                    <a href="#inscription">Inscription</a>
+                    <a href="#tableau">Surviveurs</a>
+                    <a href="#trois">Trois</a>
+                    <a href="#quatre">Quatre</a>
+                </nav>
+            </section>
+        </header>
+    </div>
+
+    <!-- ********************** section inscription ********************** -->
+    <div>
+        <section id="inscription" class="inscription centre">
+            <h1>Inscription</h1>
+
+            <!-- ********************** formulaire texte ********************** -->
+            <form>
+            <div class="formulaire_div">
+                <label for="txtNom" class="formulaire_label">Nom</label>
+                <input type="text" id="txtNom" class="formulaire_input" placeholder="Entrez votre Nom">
+            </div>
+            
+            <div class="formulaire_div">
+                <label for="txtPrénom" class="formulaire_label">Prénom</label>
+                <input type="text" id="txtPrénom" class="formulaire_input" placeholder="Entrez votre Prénom">
+            </div>
+
+            <div class="formulaire_div">
+                <label for="txtCourriel" class="formulaire_label">Courriel</label>
+                <input type="email" id="txtCourriel" class="formulaire_input" placeholder="Entrez votre Courriel">
+            </div>
+
+            <!-- ********************** formulaire radio ********************** -->
+            <div class="formulaire_div">
+                <p class="formulaire_p">Sélectionner le type de forfait</p>
+                
+                <label for="radForfait1" class="formulaire_label">
+                    Forfait 1
+                    <input type="radio" name="radForfait" id="radForfait1" class="formulaire_input">
+                </label>
+
+                <label for="radForfait2" class="formulaire_label">
+                    Forfait 2
+                    <input type="radio" name="radForfait" id="radForfait2" class="formulaire_input">
+                </label>
+
+                <label for="radForfait3" class="formulaire_label">
+                    Forfait 3
+                    <input type="radio" name="radForfait" id="radForfait3" class="formulaire_input">
+                </label>
+
+                <!-- ********************** bouton valider ********************** -->
+                <input type="submit" value="Valider">
+            </div>
+        </div>
+
+    <!-- ********************** section tableau ********************** -->
+    <div>
+        <section id="tableau" class="tableau centre">
+            <h1>Surviveurs</h1>
+            <table>
+                <caption>Stats des Personnages</caption>
+                <thead>
+                    <!-- ********************** personnage du jeu de base ********************** -->
+                    <tr>
+                        <th>Personnages</th>
+                        <th>Nom</th>
+                        <th>PV</th>
+                        <th>Attaque</th>
+                        <th>Régénération PV</th>
+                        <th>Armure</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="assets/img/Commando.webp" class="tableau_transform" width="32" height="32" alt="Commando">
+                        </th>
+                        <th>Commando</th>
+                        <th>110 (+33)</th>
+                        <th>12 (+2.4)</th>
+                        <th>1/s (+0.2/s)</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="assets/img/Chasseuse.webp" class="tableau_transform" width="32" height="32" alt="Chasseuse" >
+                        </th>
+                        <th>Chasseuse</th>
+                        <th>90 (+27)</th>
+                        <th>12 (+2.4)</th>
+                        <th>1/s (+0.2/s)</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="assets/img/Bandit.webp" class="tableau_transform" width="32" height="32" alt="Bandit">
+                        </th>
+                        <th>Bandit</th>
+                        <th>110 (+33)</th>
+                        <th>12 (+2.4)</th>
+                        <th>1/s (+0.2/s)</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="assets/img/POL-Y.webp" class="tableau_transform" width="32" height="32" alt="POL-Y">
+                        </th>
+                        <th>POL-Y</th>
+                        <th>200 (+60)</th>
+                        <th>11 (+2.2)</th>
+                        <th>1/s (+0.2/s)</th>
+                        <th>12</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="assets/img/Ingénieur.webp" class="tableau_transform" width="32" height="32" alt="Ingénieur">
+                        </th>
+                        <th>Ingénieur</th>
+                        <th>130 (+39)</th>
+                        <th>14 (+2.8)</th>
+                        <th>1/s (+0.2/s)</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="assets/img/Artificier.webp" class="tableau_transform" width="32" height="32" alt="Artificier">
+                        </th>
+                        <th>Artificier</th>
+                        <th>110 (+33)</th>
+                        <th>12 (+2.4)</th>
+                        <th>1/s (+0.2/s)</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="assets/img/Mercenaire.webp" class="tableau_transform" width="32" height="32" alt="Mercenaire">
+                        </th>
+                        <th>Mercenaire</th>
+                        <th>110 (+33)</th>
+                        <th>12 (+2.4)</th>
+                        <th>1/s (+0.2/s)</th>
+                        <th>20</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="assets/img/REX.webp" class="tableau_transform" width="32" height="32" alt="REX">
+                        </th>
+                        <th>REX</th>
+                        <th>130 (+39)</th>
+                        <th>12 (+2.4)</th>
+                        <th>1/s (+0.2/s)</th>
+                        <th>20</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="assets/img/Chargeuse.webp" class="tableau_transform" width="32" height="32" alt="Chargeuse">
+                        </th>
+                        <th>Chargeuse</th>
+                        <th>160 (+48)</th>
+                        <th>12 (+2.4)</th>
+                        <th>2.5/s (+0.5/s)</th>
+                        <th>20</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="assets/img/Acrid.webp" class="tableau_transform" width="32" height="32" alt="Acrid">
+                        </th>
+                        <th>Acrid</th>
+                        <th>160 (+48)</th>
+                        <th>15 (+3)</th>
+                        <th>2.5/s (+0.5/s)</th>
+                        <th>20</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="assets/img/Capitaine.webp" class="tableau_transform" width="32" height="32" alt="Capitaine">
+                        </th>
+                        <th>Capitaine</th>
+                        <th>110 (+33)</th>
+                        <th>12 (+2.4)</th>
+                        <th>1/s (+0.2/s)</th>
+                        <th>0</th>
+                    </tr>
+                    <!-- ********************** personnage du dlc SotV ********************** -->
+                    <tr>
+                        <th>
+                            <img src="assets/img/Tireuse_d'élite.webp" class="tableau_transform" width="32" height="32" alt="Tireuse_d'élite">
+                            <img src="assets/img/Icon_SotV.webp" width="12" height="12" alt="SotV">
+                        </th>
+                        <th>Tireuse d'élite</th>
+                        <th>110 (+33)</th>
+                        <th>12 (+2.4)</th>
+                        <th>1/s (+0.2/s)</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="assets/img/Démon_du_vide.png" class="tableau_transform" width="32" height="32" alt="Démon_du_vide">
+                            <img src="assets/img/Icon_SotV.webp" width="12" height="12" alt="SotV">
+                        </th>
+                        <th>Démon du vide</th>
+                        <th>110 (+33)</th>
+                        <th>12 (+2.4)</th>
+                        <th>1/s (+0.2/s)</th>
+                        <th>0</th>
+                    </tr>
+                    <!-- ********************** personnage du dlc SotS ********************** -->
+                    <tr>
+                        <th>
+                            <img src="assets/img/Chercheuse.webp" class="tableau_transform" width="32" height="32" alt="Chercheuse">
+                            <img src="assets/img/Icon_SotS.webp" width="12" height="12" alt="SotS">
+                        </th>
+                        <th>Chercheuse</th>
+                        <th>115 (+34)</th>
+                        <th>12 (+2.4)</th>
+                        <th>0.75/s (+0.15/s)</th>
+                        <th>20</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="assets/img/Fils_illégitime.webp" class="tableau_transform" width="32" height="32" alt="Fils_illégitime">
+                            <img src="assets/img/Icon_SotS.webp" width="12" height="12" alt="SotS">
+                        </th>
+                        <th>Fils illégitime</th>
+                        <th>180 (+54)</th>
+                        <th>13 (+2)</th>
+                        <th>1/s (+0.5/s)</th>
+                        <th>20</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="assets/img/CHEF.webp" class="tableau_transform" width="32" height="32" alt="CHEF">
+                            <img src="assets/img/Icon_SotS.webp" width="12" height="12" alt="SotS">
+                        </th>
+                        <th>CHEF</th>
+                        <th>110 (+33)</th>
+                        <th>12 (+2.4)</th>
+                        <th>1/s (+0.2/s)</th>
+                        <th>0</th>
+                    </tr>
+                    <!-- ********************** personnage du dlc AC ********************** -->
+                    <tr>
+                        <th>
+                            <img src="assets/img/Opérateur.webp" class="tableau_transform" width="32" height="32" alt="Opérateur">
+                            <img src="assets/img/Icon_AC.webp" width="12" height="12" alt="AC">
+                        </th>
+                        <th>Opérateur</th>
+                        <th>90 (+27)</th>
+                        <th>12 (+2.4)</th>
+                        <th>1/s (+0.2/s)</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="assets/img/Vagabonde.webp" class="tableau_transform" width="32" height="32" alt="Vagabonde">
+                            <img src="assets/img/Icon_AC.webp" width="12" height="12" alt="AC">
+                        </th>
+                        <th>Vagabonde</th>
+                        <th>170 (+52)</th>
+                        <th>12 (+2.4)</th>
+                        <th>1/s (+0.2/s)</th>
+                        <th>20</th>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+    </div>
+
+    <!-- ********************** section 3 ********************** -->
+    <div>
+        <section id="trois" class="trois centre">
+            <h1>TROIS</h1>
+
+        </section>
+    </div>
+
+    <!-- ********************** section 4 ********************** -->
+    <div>
+        <section id="quatre" class="quatre centre">
+            <h1>QUATRE</h1>
+        </section>
+    </div>
+
+    <!-- ********************** section pied ********************** -->
+    <div class="pied">
+        <footer>
+            <!-- ********************** bouton accueil ********************** -->
+            <section  class="pied_millieu">
+                <nav>
+                    <a href="#" class="pied_accueil">Accueil</a>
+                </nav>
+            </section>
+
+            <!-- ********************** adresse du collège ********************** -->
+            <section class="pied_section">
+                <p class="pied_p">Adresse</p>
+                <nav  class="pied_nav">
+                    <a href="https://www.google.com/maps/place/Coll%C3%A8ge+de+Maisonneuve/@45.5508613,-73.5558744,17z/data=!3m1!4b1!4m6!3m5!1s0x4cc91bf5bacbeffd:0x68ff300997eff5c!8m2!3d45.5508613!4d-73.5532995!16zL20vMDU3dHFx?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D">3800 R. Sherbrooke E, Montréal, QC H1X 2A2</a>
+                </nav>
+            </section>
+
+            <!-- ********************** liens importants ********************** -->
+            <section class="pied_section">
+                <p class="pied_p">Liens</p>
+                <nav class="pied_nav">
+                    <a href="https://riskofrain.2k.com/">Page RoR2</a>
+                    <a href="https://riskofrain2.fandom.com/wiki/Risk_of_Rain_2_Wiki">Wiki du Jeu</a>
+                </nav>
+            </section>
+
+            <!-- ********************** avis de confidentialité ********************** -->
+            <section class="pied_millieu">
+                <nav>
+                    <a href="">Avis de confidentialité | Privacy Notice</a>
+                </nav>
+            </section>
+
+            <!-- ********************** media ********************** -->
+            <section  class="pied_millieu pied_media">
+                <img src="https://s2.svgbox.net/social.svg?ic=steam&color=004cc7" width="32" height="32" alt="steam">
+                <img src="https://s2.svgbox.net/social.svg?ic=discord&color=3609da" width="32" height="32" alt="discord"/>
+                <img src="https://s2.svgbox.net/social.svg?ic=youtube&color=c70000" width="32" height="32" alt="youtube">
+                <img src="https://s2.svgbox.net/social.svg?ic=instagram&color=ca0c68" width="32" height="32" alt="instagram">
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
