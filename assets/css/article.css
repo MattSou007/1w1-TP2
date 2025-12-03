@@ -1,0 +1,31 @@
+/************************** css général **************************/
+.sArticle
+{
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/************************** css des articles **************************/
+.article
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    gap: 20px;
+}
+
+.article_div
+{
+    flex-grow: 500px;
+    flex-shrink: 200px;
+    flex-basis: 500px;
+}
+.article_figure
+{
+    flex-grow: 500px;
+    flex-shrink: 200px;
+    flex-basis: 500px;
+}

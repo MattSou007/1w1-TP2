@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/formulaire.css">
     <link rel="stylesheet" href="assets/css/tableau.css">
+    <link rel="stylesheet" href="assets/css/article.css">
 </head>
 
 <body>
@@ -35,17 +36,17 @@
                 <nav>
                     <a href="https://github.com/MattSou007/1w1-TP2">Page GitHub</a>
                 </nav>
-
-                <!-- ********************** menu & bouton burger ********************** -->
-                <label for="chk_burger" class="entete_bouton"><img src="https://s2.svgbox.net/hero-outline.svg?ic=menu&color=000000" width="32" height="32"></label>
-                <input type="checkbox" name="" id="chk_burger">
-                <nav class="entete_nav">
-                    <a href="#inscription">Inscription</a>
-                    <a href="#tableau">Surviveurs</a>
-                    <a href="#article">Information</a>
-                    <a href="#quatre">Quatre</a>
-                </nav>
             </section>
+
+            <!-- ********************** menu & bouton burger ********************** -->
+            <label for="chk_burger" class="entete_bouton"><img src="https://s2.svgbox.net/hero-outline.svg?ic=menu&color=000000" width="32" height="32"></label>
+            <input type="checkbox" name="" id="chk_burger">
+            <nav class="entete_nav">
+                <a href="#inscription">Inscription</a>
+                <a href="#tableau">Surviveurs</a>
+                <a href="#article">Information</a>
+                <a href="#quatre">Quatre</a>
+            </nav>
         </header>
     </div>
 
@@ -308,9 +309,48 @@
 
     <!-- ********************** section article ********************** -->
     <div>
-        <section id="article" class="article centre">
+        <section id="article" class="sArticle centre">
             <h1>Information</h1>
-
+            <!-- ********************** article de personnages ********************** -->
+             <article class="article">
+                <div class="article_div">
+                    <p>many characters to unlock and challenges to unlock new abilities and skin</p>
+                </div>
+                <figure class="article_figure">
+                    <img src="assets/img/Personnages_screenshot.png" alt="">
+                    <figcaption>Écran de selection Personnages</figcaption>
+                </figure>
+             </article>
+            <!-- ********************** article des éléments interactives ********************** -->
+             <article class="article">
+                <figure class="article_figure">
+                    <img src="" alt="">
+                    <figcaption>b</figcaption>
+                </figure>
+                <div class="article_div">
+                    <p>many interactables in ror2</p>
+                </div>
+             </article>
+            <!-- ********************** article de monstres ********************** -->
+             <article class="article">
+                <div class="article_div">
+                    <p>waves of monster and bosses, more powerfull foes can occasionally be found (elites)</p>
+                </div>
+                <figure class="article_figure">
+                    <img src="assets/img/Monstres_screenshot.webp" alt="">
+                    <figcaption>Screenshot sur Steam du dlc "Seekers of the Storm"</figcaption>
+                </figure>
+             </article>
+            <!-- ********************** article des items ********************** -->
+             <article class="article">
+                <figure class="article_figure">
+                    <img src="assets/img/Items_screenshot.png" alt="">
+                    <figcaption>Journal des Items</figcaption>
+                </figure>
+                <div class="article_div">
+                    <p>many items to unlock, synegenizing with each other and characters, discover your playstyle</p>
+                </div>
+             </article>
         </section>
     </div>
 
