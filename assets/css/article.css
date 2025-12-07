@@ -6,26 +6,49 @@
     display: flex;
     flex-flow: column wrap;
 }
-
-/************************** css des articles **************************/
 .article
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+.article_section
 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-bottom: 10px;
     gap: 20px;
 }
 
+/************************** css des articles **************************/
+.article_h2
+{
+    font-size: 30px;
+    margin: 0;
+    text-decoration: underline;
+}
 .article_div
 {
     flex-grow: 500px;
-    flex-shrink: 200px;
+    flex-shrink: 100px;
     flex-basis: 500px;
+    padding: 10px;
+    background-color: rgb(50, 50, 225, 0.6);
+    color: rgb(235, 170, 50);
 }
 .article_figure
 {
     flex-grow: 500px;
-    flex-shrink: 200px;
+    flex-shrink: 100px;
     flex-basis: 500px;
+    padding: 10px 10px 5px 10px;
+    background-color: rgb(50, 50, 225, 0.6);
+    color: rgb(235, 170, 50);
+}
+figcaption
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
 }
