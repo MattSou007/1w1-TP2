@@ -23,7 +23,12 @@
 
 
 /************************** css des vidéos **************************/
+.gVideo
+{
+    flex-direction: column;
+}
+
 .gVideo iframe
 {
-    flex: 2 0 350px;
+    flex: 1 0 300px;
 }
