@@ -4,10 +4,26 @@
     min-height: 100vh;
     padding: 20px;
 }
+.gImage, .gVideo
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px
+}
 
 
 /************************** css d'image **************************/
-
+.gImage_figure
+{
+    flex: 1 1 300px ;
+    padding: 10px 10px 5px 10px;
+    background-color: rgb(50, 50, 225, 0.6);
+    color: rgb(235, 170, 50);
+}
 
 
 /************************** css des vidéos **************************/
+.gVideo iframe
+{
+    flex: 0 0 250px;
+}

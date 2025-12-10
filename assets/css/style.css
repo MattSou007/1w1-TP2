@@ -41,6 +41,14 @@ figure > img
     object-fit: cover;
 }
 
+figcaption
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: clamp(1rem, 1.25rem, 2rem);
+}
+
 .centre
 {
     max-width: 1100px;
@@ -152,7 +160,9 @@ div > footer
 /************************** l'arrière plan **************************/
 body > div:nth-of-type(1)
 {
-    background-image: url("../img/RoR2.webp");
+    background:
+    url("../img/RoR2.webp");
+    background-size: cover;
 }
 body > div:nth-of-type(2)
 {
