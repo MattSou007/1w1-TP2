@@ -20,15 +20,28 @@
     background-color: rgb(50, 50, 225, 0.6);
     color: rgb(235, 170, 50);
 }
+.gImage_figure:hover
+{
+    transform: scale(1.25);
+    transition: transform 1s;
+}
+
+.gImage_image
+{
+    filter: blur(3px) brightness(0.75);
+}
+.gImage_image:hover
+{
+    filter: blur(0px) brightness(0.75);
+}
 
 
 /************************** css des vidéos **************************/
-.gVideo
-{
-    flex-direction: column;
-}
-
 .gVideo iframe
 {
     flex: 1 0 300px;
+}
+.gVideo iframe:playing
+{
+    transform: scale(1.5);
 }
