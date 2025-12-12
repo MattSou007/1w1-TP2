@@ -37,11 +37,13 @@
 
 
 /************************** css des vidéos **************************/
+.gVideo
+{
+    flex-direction: column;
+    align-content: center;
+}
+
 .gVideo iframe
 {
-    flex: 1 0 300px;
-}
-.gVideo iframe:playing
-{
-    transform: scale(1.5);
+    flex: 1 0 400px;
 }
